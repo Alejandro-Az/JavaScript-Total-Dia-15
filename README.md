@@ -44,3 +44,16 @@ Pagina principal
 
 Al ingresar un id
 ![web02](https://github.com/Alejandro-Az/JavaScript-Total-Dia-15/assets/105530752/e9940705-189d-47df-94cc-c58967028c15)
+
+### Acerca de mi solución
+La página inicia de la manera en la que vemos en la primera imagen, el usuario puede agregar un nuevo dispositivo
+con los campos de texto y el botón que vemos en la parte de abajo de la web.
+
+Cuando el usuario ingresa un ID para filtrar los resultados, los campos de abajo se mantienen y lo único
+que se modifica es el encabezado que cambia a "Modificar dispositvo" y el botón que ejecuta una función que modifica el elemento que pertenece al id ingresado.
+
+Si el usuario borra el numero que metió como id y presiona en mostrar, muestra todos los ruesltados nuevamente 
+y el encabezado cambia nuevamente a "Agregar dispositivo" al igual que el botón, que ejecuta la función que se encarga de agregar un nuevo elemento.
+
+El ingresar el id sirve para eliminar, modificar y consultar el elemento sin problemas, cada uno de estos botones muestra un alert con el resultado
+de la operación.
