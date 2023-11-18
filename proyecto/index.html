@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios@1.6.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Inventario</title>
+</head>
+<body onload="obtenerDatos()">
+    
+    <div class="elementosBusqueda">
+        <label for="id">Buscar por ID</label>
+        <input type="number" name="id" id="obtenerId" min="1" max="10">
+        <button onclick="obtenerPorId()">Mostrar</button>
+        <button onclick="eliminarDispositivo()">Eliminar</button>
+    </div>
+
+    <table>
+        <thead>
+            <th>id</th>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Color</th>
+            <th>Almacenamiento</th>
+            <th>Procesador</th>
+        </thead>
+        <tbody id="listaInformacion">
+            
+        </tbody>
+    </table>    
+
+    <div class="agregar">
+        <h2> <span id="encabezadoDispositivo">Agregar nuevo dispositivo</span></h2>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        
+        <label for="modelo">Modelo</label>
+        <input type="text" name="modelo" id="modelo">
+        
+        <label for="color">Color</label>
+        <input type="text" name="color" id="color">
+        
+        <label for="almacenamiento">Almacenamiento</label>
+        <input type="text" name="almacenamiento" id="almacenamiento">
+
+        <label for="procesador">Procesador</label>
+        <input type="text" name="procesador" id="procesador">
+        
+        <button onclick="agregarDispositivo()" id="botonAgregar">Agregar</button>
+        <button onclick="modificarDispositivo()" style="display: none;" id="botonModificar">Modificar</button>
+    </div>
+
+    <script src="./crud.js"></script>
+</body>
+</html>

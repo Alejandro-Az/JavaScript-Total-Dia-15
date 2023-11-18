@@ -1,0 +1,94 @@
+body {
+    background: #544060;
+}
+
+.elementosBusqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.elementosBusqueda label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background: #2d134c;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+
+.elementosBusqueda input {
+    width: 120px;
+}
+
+.elementosBusqueda button {
+    width: 120px;
+    margin: 0 5px;
+}
+
+table {
+    width: 99vw;
+    font-size: 20px;
+    background: #7d9bfa;
+    color: black;
+}
+
+th {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 30px;
+    background: #2d134c;
+    color: white;
+}
+
+td {
+    text-align: center;
+    border: 2px solid black;    
+    width: 100px;
+    height: 30px;
+}
+
+td:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.agregar {
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background: #2d134c;
+}
+
+.agregar h2 {
+    display: flex;
+    background: #2d134c;
+    color: white;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.agregar label {
+    text-align: center;
+    background: #2d134c;
+    color: white;
+    font-size: 20px;
+    margin: 6px 0;
+    width: 180px;
+}
+
+.agregar button {
+    width: 180px;
+    margin-top: 10px;
+    height: 30px;
+}
